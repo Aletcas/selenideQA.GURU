@@ -33,7 +33,7 @@ public class SelenideInGithub {
         $$("header").first().shouldHave(text("B"));
     }
 
-    // не работает
+    // не работает, тест падает, так как действие не происходит
     @Test
     @DisplayName("Поменять местами прямоугольники с помощью мыши и проверить, что они поменялись местами")
     void checkMovingRectanglesWithMouse() {
